@@ -31,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        Log.e("commit changes ","on github test");
+
+
         pagetx = (TextView)findViewById(R.id.pagetxt);
         ll_parent = (LinearLayout)findViewById(R.id.add_parent);
         data.clear();
